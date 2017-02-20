@@ -1,0 +1,8 @@
+﻿<div class="fpl">
+    <div class="row" ng-init="hello='world'"  ng-controller="searchController as main">
+        {{hello}}
+        <ul>
+            <li ng-repeat="player in main.players" >{{player.name}}</li>
+        </ul>
+    </div>
+</div>
